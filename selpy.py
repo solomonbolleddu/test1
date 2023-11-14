@@ -13,12 +13,3 @@ for each in listA:
         driver.find_element_by_partial_link_text(each.text).click()
         break
 print(tempo)
-
-for each in listA:
-    tempo = tempo+1
-
-    if each.text == "Amazon Pay":
-        time.sleep(5)
-        driver.find_element_by_partial_link_text(each.text).click()
-        break
-print(tempo)
